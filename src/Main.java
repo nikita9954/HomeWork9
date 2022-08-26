@@ -10,6 +10,7 @@ public class Main {
         metods.metod1();
         metods.metod2();
         metods.metod3();
+        metods.metod4();
     }
 }
 

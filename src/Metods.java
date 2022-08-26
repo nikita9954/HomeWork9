@@ -58,7 +58,22 @@ public class Metods {
             System.out.println("Этот текст будет в любом случае");
         }
     }
+    public void metod4() {
+        try {
+            d = a / 0;
+            int[] array = new int[a];
+            array[a + 1] = d;
+            System.out.println("Текст появился код неверный");
+        } catch (ArithmeticException | IndexOutOfBoundsException e) {
+            System.out.println("Споймали ошибку c помощью мульти кетча должен еще появится блок файнали,блок файноли не будкт выполнен");
+            System.exit(0);
+        }
+        finally {
+            System.out.println("Этот текст будет в любом случае");
+        }
+    }
 }
+
 
 
 
