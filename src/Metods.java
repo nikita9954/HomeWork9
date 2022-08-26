@@ -23,7 +23,7 @@ public class Metods {
 
     public void metod1() {
         try {
-            d = a / 1;
+            d = a / 0;
             int[] array = new int[a];
             array[a + 1] = d;
             System.out.println("Текст появился код неверный");
@@ -37,7 +37,7 @@ public class Metods {
 
     public void metod2() {
         try {
-            d = a / 1;
+            d = a / 0;
             int[] array = new int[a];
             array[a + 1] = d;
             System.out.println("Текст появился код неверный");
@@ -48,7 +48,7 @@ public class Metods {
 
     public void metod3() {
         try {
-            d = a / 1;
+            d = a / 0;
             int[] array = new int[a];
             array[a + 1] = d;
             System.out.println("Текст появился код неверный");
